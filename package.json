@@ -1,0 +1,30 @@
+{
+  "name": "app-model",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "asket system",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@fastify/swagger": "^8.3.0",
+    "@fastify/type-provider-json-schema-to-ts": "^2.2.2",
+    "@sinclair/typebox": "^0.25.21",
+    "@typegoose/typegoose": "^10.0.0",
+    "@types/node": "^18.11.18",
+    "env-schema": "^5.2.0",
+    "fastify": "^4.12.0",
+    "mongoose": "^6.8.4",
+    "nanoid": "3.3.4",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "prettier": "^2.8.3",
+    "tsx": "^3.12.2",
+    "vitest": "^0.27.3"
+  }
+}
