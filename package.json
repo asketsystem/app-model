@@ -5,7 +5,8 @@
   "author": "asket system",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "tsx watch src/app.ts"
   },
   "dependencies": {
     "@commitlint/cli": "^17.4.2",
