@@ -1,3 +1,4 @@
+import { logger } from './logger';
 import { createServer } from './utils/createServer';
 async function startServer(){
     const server = await createServer()
@@ -7,7 +8,7 @@ async function startServer(){
         host: "0.0.0.0"
     })
 
-    console.log("App is Listening")
+    logger.info(`App is Listening`)
 }
 
 startServer()
