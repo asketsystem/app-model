@@ -35,7 +35,7 @@ async function startServer(){
     for (let i = 0; i < signals.length; i++) {
         process.on(signals[i], () =>
             gracefulShutdown({
-                signals: signals[i],
+                signal: signals[i],
                 server,
             })
         )
